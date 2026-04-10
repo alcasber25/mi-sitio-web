@@ -1,10 +1,92 @@
-<main>
-    <section>
-        <h1>Bienvenido a mi sitio web</h1>
-        <p>Este es un espacio donde comparto información sobre mí, mis proyectos y cómo contactarme.</p>
-    </section>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inicio — Aldo Castillo Bernal</title>
 
-    <section>
-        <img src="img/foto.jpg" alt="Foto de presentación" class="img-home">
-    </section>
-</main>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- HEADER -->
+    <header>
+      <nav class="nav">
+        <a href="index.html" class="nav-logo">Aldo Castillo Bernal</a>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Inicio</a></li>
+          <li><a href="biografia.html">Biografía</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-divider"></div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+
+      <!-- Presentación personal (nuevo hero) -->
+<section class="hero">
+  <h1 class="hero-title">Comunicación audiovisual, investigación y un poco de código</h1>
+
+  <p class="hero-sub">
+    Comunicador audiovisual · Investigador doctoral · Aprendiz de desarrollo web
+  </p>
+
+  <p class="hero-desc">
+    Trabajo en la intersección entre la producción audiovisual, las plataformas digitales y la investigación académica. 
+    Y, de paso, uso este sitio como mi pequeño laboratorio para practicar HTML, CSS y otros lenguajes que todavía no conozco. 
+    Si algo no funciona, probablemente fue un experimento.
+  </p>
+</section>
+
+
+      <!-- Tarjetas principales -->
+      <section class="cards-row">
+
+        <a href="biografia.html" class="card">
+          <p class="card-eyebrow">Biografía</p>
+          <h2 class="card-title">Quién soy</h2>
+          <p class="card-desc">Mi recorrido profesional y académico en comunicación audiovisual.</p>
+          <span class="card-link">Ver más →</span>
+        </a>
+
+        <a href="portfolio.html" class="card">
+          <p class="card-eyebrow">Portfolio</p>
+          <h2 class="card-title">Proyectos</h2>
+          <p class="card-desc">Selección de trabajos en producción audiovisual y contenido digital.</p>
+          <span class="card-link">Ver más →</span>
+        </a>
+
+        <a href="contacto.html" class="card">
+          <p class="card-eyebrow">Contacto</p>
+          <h2 class="card-title">Hablemos</h2>
+          <p class="card-desc">Formulario para consultas, colaboraciones o proyectos.</p>
+          <span class="card-link">Ir al formulario →</span>
+        </a>
+
+      </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p class="footer-left">Aldo Castillo Bernal · Lima / Vitoria‑Gasteiz</p>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/aldo-castillo-bernal/" target="_blank">LinkedIn</a>
+        <a href="https://www.behance.net/alcasber25" target="_blank">Behance</a>
+        <a href="contacto.html">Contacto</a>
+      </div>
+    </footer>
+
+  </div>
+</body>
+</html>

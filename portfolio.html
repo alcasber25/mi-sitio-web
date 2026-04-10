@@ -1,22 +1,265 @@
-<main>
-    <h1>Portfolio</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Aldo Castillo Bernal</title>
 
-    <section>
-        <h2>Proyecto 1</h2>
-        <img src="img/proyecto1.jpg" alt="Imagen del proyecto 1">
-    </section>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
 
-    <section>
-        <h2>Video de presentación</h2>
-        <video controls width="100%">
-            <source src="media/video.mp4" type="video/mp4">
-        </video>
-    </section>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
 
-    <section>
-        <h2>Audio descriptivo</h2>
-        <audio controls>
-            <source src="media/audio.mp3" type="audio/mpeg">
-        </audio>
-    </section>
-</main>
+<body>
+  <div class="container">
+
+    <!-- HEADER -->
+    <header>
+      <nav class="nav">
+        <a href="index.html" class="nav-logo">Aldo Castillo Bernal</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="biografia.html">Biografía</a></li>
+          <li><a href="portfolio.html" class="active">Portfolio</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-divider"></div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+
+      <!-- Encabezado -->
+      <section class="marco">
+        <header class="page-header">
+          <h1>Portfolio</h1>
+          <p>Selección de proyectos en producción audiovisual, contenido digital y comunicación transmedia.</p>
+        </header>
+      </section>
+
+      <!-- Intro -->
+      <section class="marco">
+        <p class="port-intro">
+          Una muestra del trabajo desarrollado desde el IRTP y en proyectos independientes. Cada tarjeta enlaza directamente al proyecto en Behance. Para ver el catálogo completo, visita mi perfil en
+          <a href="https://www.behance.net/alcasber25" target="_blank" class="card-link">Behance</a>.
+        </p>
+      </section>
+
+      <!-- Grid de proyectos -->
+      <section class="port-grid marco">
+
+        <article>
+          <a href="https://www.behance.net/gallery/241961273/Campana-Color-Lima" target="_blank" class="port-card">
+            <div class="port-img"><img src="img/color_lima.png">imagen</span></div>
+            <div class="port-info">
+              <p class="port-cat">Campaña institucional</p>
+              <p class="port-title">Campaña "Color Lima"</p>
+            </div>
+          </a>
+        </article>
+
+        <article>
+          <a href="https://www.behance.net/gallery/241960945/Campana-Vamos-a-Vacunarnos" target="_blank" class="port-card">
+            <div class="port-img"><img src="img/vamos_a_vacunarnos.png" alt="Imagen de la campaña ¡Vamos a Vacunarnos!">imagen</span></div>
+            <div class="port-info">
+              <p class="port-cat">Campaña institucional</p>
+              <p class="port-title">¡Vamos a Vacunarnos!</p>
+            </div>
+          </a>
+        </article>
+
+        <article>
+          <a href="https://www.behance.net/gallery/241959943/Contenido-digital-para-el-Concurso-Nacional-de-Marinera" target="_blank" class="port-card">
+            <div class="port-img"><span class="port-img-placeholder">imagen</span></div>
+            <div class="port-info">
+              <p class="port-cat">Campaña institucional</p>
+              <p class="port-title">Concurso Nacional de Marinera</p>
+            </div>
+          </a>
+        </article>
+
+        <article>
+          <a href="https://www.behance.net/gallery/241959579/Contenido-digital-para-Mi-hermana-y-sus-libros" target="_blank" class="port-card">
+            <div class="port-img"><span class="port-img-placeholder">imagen</span></div>
+            <div class="port-info">
+              <p class="port-cat">Contenido digital</p>
+              <p class="port-title">Mi hermana y sus libros</p>
+            </div>
+          </a>
+        </article>
+
+        <article>
+          <a href="https://www.behance.net/gallery/241961947/Contenido-digital-para-Barrio-amigo" target="_blank" class="port-card">
+            <div class="port-img"><span class="port-img-placeholder">imagen</span></div>
+            <div class="port-info">
+              <p class="port-cat">Contenido digital</p>
+              <p class="port-title">Barrio amigo</p>
+            </div>
+          </a>
+        </article>
+
+        <article>
+          <a href="https://www.behance.net/gallery/241963207/Serie-Aprendiendo-en-Lenguas-originarias" target="_blank" class="port-card">
+            <div class="port-img"><span class="port-img-placeholder">imagen</span></div>
+            <div class="port-info">
+              <p class="port-cat">Serie educativa</p>
+              <p class="port-title">Aprendiendo en Lenguas Originarias</p>
+            </div>
+          </a>
+        </article>
+
+        <article>
+          <a href="https://www.behance.net/gallery/241962649/Hablemos-de" target="_blank" class="port-card">
+            <div class="port-img"><span class="port-img-placeholder">imagen</span></div>
+            <div class="port-info">
+              <p class="port-cat">Contenido digital</p>
+              <p class="port-title">Hablemos de...</p>
+            </div>
+          </a>
+        </article>
+
+        <article>
+          <a href="https://www.behance.net/gallery/84966545/Y-Dicen" target="_blank" class="port-card">
+            <div class="port-img"><span class="port-img-placeholder">imagen</span></div>
+            <div class="port-info">
+              <p class="port-cat">Proyecto experimental</p>
+              <p class="port-title">Y Dicen</p>
+            </div>
+          </a>
+        </article>
+
+        <article>
+          <a href="https://www.behance.net/gallery/81468333/Dia-de-la-Nina-2018" target="_blank" class="port-card">
+            <div class="port-img"><span class="port-img-placeholder">imagen</span></div>
+            <div class="port-info">
+              <p class="port-cat">Campaña institucional</p>
+              <p class="port-title">Día de la Niña 2018</p>
+            </div>
+          </a>
+        </article>
+
+        <article>
+          <a href="https://www.behance.net/gallery/81672163/Dia-de-la-Fotografia-en-Cantagallo" target="_blank" class="port-card">
+            <div class="port-img"><span class="port-img-placeholder">imagen</span></div>
+            <div class="port-info">
+              <p class="port-cat">Proyecto documental</p>
+              <p class="port-title">Día de la Fotografía en Cantagallo</p>
+            </div>
+          </a>
+        </article>
+
+        <article>
+          <a href="https://www.behance.net/gallery/81415065/45" target="_blank" class="port-card">
+            <div class="port-img"><span class="port-img-placeholder">imagen</span></div>
+            <div class="port-info">
+              <p class="port-cat">Proyecto experimental</p>
+              <p class="port-title">45"</p>
+            </div>
+          </a>
+        </article>
+
+      </section>
+
+      <!-- CASO DE ESTUDIO UNIFICADO EN UN SOLO MARCO -->
+      <section class="marco">
+
+        <!-- Encabezado del caso -->
+        <header class="caso-header">
+          <p class="caso-eyebrow">Caso de estudio</p>
+          <h2 class="caso-title">Aprendiendo en Lenguas Originarias</h2>
+          <p class="caso-sub">
+            Producción audiovisual multiplataforma para la preservación y difusión de cuatro lenguas originarias del Perú.
+          </p>
+        </header>
+
+        <!-- Video -->
+        <div class="port-video" style="margin-top: 1.5rem;">
+          <iframe 
+            width="100%" 
+            height="240" 
+            src="https://www.youtube.com/embed/jqM3IZ86EPw?list=PLCiW6PliDGAq4joUspUsxCWQE4lUVtVeu"
+            title="Aprendiendo en lenguas originarias"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <!-- Metadatos -->
+        <div class="caso-meta" style="margin-top: 1.5rem;">
+          <div class="caso-meta-item">
+            <span class="caso-meta-label">Institución</span>
+            <span class="caso-meta-val">IRTP (TVPerú · Canal IPe)</span>
+          </div>
+
+          <div class="caso-meta-item">
+            <span class="caso-meta-label">Plataformas</span>
+            <span class="caso-meta-val">TV abierta + digital</span>
+          </div>
+
+          <div class="caso-meta-item">
+            <span class="caso-meta-label">Rol</span>
+            <span class="caso-meta-val">Dirección y coordinación de contenidos</span>
+          </div>
+
+          <div class="caso-meta-item">
+            <span class="caso-meta-label">Lenguas</span>
+            <div class="bio-pills">
+              <span class="pill">Quechua</span>
+              <span class="pill">Aymara</span>
+              <span class="pill">Ashaninka</span>
+              <span class="pill">Shipibo</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Texto del caso -->
+        <div class="caso-grid" style="margin-top: 1.5rem;">
+          <div class="caso-block">
+            <p class="caso-block-label">Contexto</p>
+            <p>El Perú reconoce 48 lenguas originarias, de las cuales solo un puñado cuenta con presencia sostenida en medios masivos...</p>
+          </div>
+
+          <div class="caso-block">
+            <p class="caso-block-label">El proyecto</p>
+            <p>La serie propuso un formato educativo donde cada episodio presentaba vocabulario, frases cotidianas y contextos culturales...</p>
+          </div>
+
+          <div class="caso-block">
+            <p class="caso-block-label">Mi contribución</p>
+            <p>Dirigí los episodios audiovisuales y coordiné los contenidos digitales para las plataformas del IRTP...</p>
+          </div>
+
+          <div class="caso-block">
+            <p class="caso-block-label">Por qué importa</p>
+            <p>La producción de contenidos en lenguas originarias dentro de medios públicos plantea preguntas concretas sobre representación...</p>
+          </div>
+        </div>
+
+        <!-- Enlace final -->
+        <div class="port-behance" style="margin-top: 1.5rem;">
+          Ver el proyecto en →
+          <a href="https://www.behance.net/gallery/241963207/Serie-Aprendiendo-en-Lenguas-originarias" target="_blank">Behance</a>
+        </div>
+
+      </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p class="footer-left">Aldo Castillo Bernal · Lima / Vitoria‑Gasteiz</p>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/aldo-castillo-bernal/" target="_blank">LinkedIn</a>
+        <a href="https://www.behance.net/alcasber25" target="_blank">Behance</a>
+        <a href="contacto.html">Contacto</a>
+      </div>
+    </footer>
+
+  </div>
+</body>
+</html>
